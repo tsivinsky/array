@@ -2,6 +2,10 @@
 
 This is me practicing generics and testing in Go
 
+```bash
+go get -u github.com/tsivinsky/array
+```
+
 ## array.Each
 
 ```go
