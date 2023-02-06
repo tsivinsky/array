@@ -23,3 +23,15 @@ array.Map[T any, M any](slice []T, func(item T, i int) M) []M
 ```go
 array.Reduce[T any, M any](slice []T, func(accumulator M, currentValue T) M, initialValue M) M
 ```
+
+## array.Some
+
+```go
+array.Some[T any](slice []T, func(item T, i int) bool) bool
+```
+
+## array.Every
+
+```go
+array.Every[T any](slice []T, func(item T, i int) bool) bool
+```
