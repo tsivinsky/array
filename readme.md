@@ -47,3 +47,9 @@ array.Find[T any](slice []T, func (item T, i int) bool) T
 ```go
 array.FindIndex[T any](slice []T, func (item T, i int) bool) int
 ```
+
+## array.Filter
+
+```go
+array.Filter[T any](slice []T, func (item T, i int) bool) []T
+```
