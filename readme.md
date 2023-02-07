@@ -35,3 +35,15 @@ array.Some[T any](slice []T, func(item T, i int) bool) bool
 ```go
 array.Every[T any](slice []T, func(item T, i int) bool) bool
 ```
+
+## array.Find
+
+```go
+array.Find[T any](slice []T, func (item T, i int) bool) T
+```
+
+## array.FindIndex
+
+```go
+array.FindIndex[T any](slice []T, func (item T, i int) bool) int
+```
