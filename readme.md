@@ -53,3 +53,9 @@ array.FindIndex[T any](slice []T, func (item T, i int) bool) int
 ```go
 array.Filter[T any](slice []T, func (item T, i int) bool) []T
 ```
+
+## array.Includes
+
+```go
+array.Includes[T comparable](slice []T, item T) bool
+```
