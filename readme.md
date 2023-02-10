@@ -59,3 +59,11 @@ array.Filter[T any](slice []T, func (item T, i int) bool) []T
 ```go
 array.Includes[T comparable](slice []T, item T) bool
 ```
+
+## array.At
+
+Try passing negative number as second argument
+
+```go
+array.At[T any](s []T, i int) T
+```
